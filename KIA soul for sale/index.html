@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel ="stylesheet" href="style.css">
+	<title>KIA SOUL Store </title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<a href="#"><img src="logokia.jpg" class="logo"></a>
+
+
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cars</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact </a></li>
+			</ul>
+
+		</header>
+		<div class="content">
+			<div class="text">
+				<h2>Kia soul For sale</h2>
+				<p class="paragraph">Model:2010 <br> Color: Black <br> Engin:1600cc <br> price:450000 </p>
+
+			</div>
+			<div class="image">
+				<img class="img" src="kiablack.jpg">
+
+			</div>
+		</div>
+		<div class="icons">
+			<img onclick="cars(this.src);colors('#000')" src="kiablack1.jpg">
+			<img onclick="cars(this.src); colors('#FF0000');changeParagraphText('Model:2012<br>Color:Red<br> Engin:14000cc<br>price:950000')" src="kiared2.jpg">
+			<img onclick="cars(this.src);colors('#827839');changeParagraphText('Model:2014<br> Color:Grey <br>Engin:16000cc<br>price:850000')" src="kiagry3.jpg">
+			<img onclick="cars(this.src);colors('#C85A17');changeParagraphText('Model:2016<br> Color:Yellow<br>Engin:14000cc<br> price:600000')" src="kiayello4.jpg">
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
